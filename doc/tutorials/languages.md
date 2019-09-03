@@ -307,7 +307,7 @@ which take the form of a pattern and an optional action.
 
 #### The Parser Specification Grammar
 So the general form of a parser specification can be given in a declarative
-form of EBNF notation:
+form of [EBNF notation](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form):
 ```
 Parser        <- Rule*
 Rule          <- Production AltProduction*
